@@ -5,7 +5,7 @@ declared-services:
 applications:
 - services:
   - natural-language-classifier-standard
-  name: natural-language-classifier-demo
+  name: chavasapp
   command: npm start
   path: .
   memory: 512M

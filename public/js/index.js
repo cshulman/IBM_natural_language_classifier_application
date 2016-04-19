@@ -67,11 +67,13 @@ $(document).ready(function() {
   };
 
   [
-    'Is it hot outside?',
-    'What is the expected high for today?',
-    'Will it be foggy tomorrow morning?',
-    'Should I prepare for sleet?',
-    'Will there be a storm today?'
+    'How many oceans are there?',
+    'How many continents are there?',
+    'What is the coldest continent?',
+    'What are the names of the 4 oceans?',
+    'Which ocean is the smallest in the world?',
+    'Which continent has the oldest civilization?',
+    'What is the largest river in the world?'
   ].forEach(function(question){
     $('<a>').text(question)
       .mousedown(function() {
